@@ -1,7 +1,7 @@
 @extends('dashboard.master')
 @section('contenido')
-    <a href="{{ route('question.create')}}" class="btn btn-success mt-3">Añadir question</a>
-    <h2 class="text-center mb-5"> Lista de questiones registrados.</h2>
+    <a href="{{ route('question.create')}}" class="btn btn-success mt-3">Añadir Cuestionario</a>
+    <h2 class="text-center mb-5"> Lista de cuestionarios registrados.</h2>
     <table class="table table-striped text-center">
         <thead>
             <tr>
@@ -36,9 +36,9 @@
                     <td>{{ $question->answer10 }}</td>
 
                     <td>
-                        <a href="{{ route('question.show', $question->id) }}" class="btn btn-primary">Ver</a>
-                        <a href="{{ route('question.edit', $question->id) }}" class="btn btn-success">Modificar</a>
-                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal"
+                        <a href="{{ route('question.show', $question->id) }}" class="btn btn-primary btn-block">Ver</a>
+                        <a href="{{ route('question.edit', $question->id) }}" class="btn btn-success btn-block">Modificar</a>
+                        <button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#exampleModal"
                             data-id="{{ $question->id }}">Eliminar</button>
                     </td>
                 </tr>

@@ -150,7 +150,7 @@
                     <select class="form-control" name="answer9" id="answer9">
                         <option value="El Open Close Principle"{{ $question->answer9 =='El Open Close Principle' ? 'selected="selected"':'' }}>El Open Close Principle</option>
                         <option value="El Dependency Inversion Principle" {{ $question->answer9 =='El Dependency Inversion Principle' ? 'selected="selected"':'' }}>El Dependency Inversion Principle</option>
-                        <option value="El Single Responsability Principle" {{ $question->answer9 =='Deberiamos crear una abstracción (interface) de los servicios de AuthenticationService requeridos por HealthService y que esta última dependa de la abstracción' ? 'selected="selected"':'' }}>Deberiamos crear una abstracción (interface) de los servicios de AuthenticationService requeridos por HealthService y que esta última dependa de la abstracción</option>
+                        <option value="El Single Responsability Principle" {{ $question->answer9 =='El Single Responsability Principle' ? 'selected="selected"':'' }}>El Single Responsability Principle</option>
                     </select>
                     
                 </div>
