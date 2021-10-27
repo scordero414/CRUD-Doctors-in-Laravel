@@ -85,6 +85,7 @@ class DoctorController extends Controller
      */
     public function destroy(Doctor $doctor)
     {
-        //
+        $doctor ->delete();
+        return back()->with('status', "La mascota ha sido eliminada con éxito");
     }
 }

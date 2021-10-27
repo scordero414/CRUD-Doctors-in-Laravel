@@ -9,7 +9,7 @@
 </head>
 <body>
     @include('dashboard.partials.nav-menu')
-    <div class="container section">
+    <div class="mx-3">
         @include('dashboard.partials.status')
         @yield('contenido')
     </div>

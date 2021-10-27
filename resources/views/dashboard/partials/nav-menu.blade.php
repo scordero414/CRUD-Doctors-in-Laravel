@@ -10,6 +10,11 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
         </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{{ route('question.index') }}">Cuestionarios</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
